@@ -3,5 +3,6 @@
 ### Getting Started
 
 ```console
-pip3 install -r requirements.txt
+conda update -n base -c defaults conda
+conda env create -f environment.yml
 ```

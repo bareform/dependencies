@@ -1,0 +1,15 @@
+name: bareform
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - matplotlib
+  - numpy
+  - pillow
+  - pytorch
+  - torchvision
+  - tqdm
+  - pip
+    
