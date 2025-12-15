@@ -9,6 +9,7 @@ dependencies:
   - numpy
   - pillow
   - pytorch
+  - scipy
   - torchvision
   - tqdm
   - pip
