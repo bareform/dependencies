@@ -6,7 +6,6 @@ channels:
 dependencies:
   - python=3.10
   - gdown
-  - gymnasium
   - imageio
   - imageio-ffmpeg
   - matplotlib
@@ -18,3 +17,6 @@ dependencies:
   - torchvision
   - tqdm
   - pip
+  - pip:
+      - gymnasium
+      - "gymnasium[box2d]"
